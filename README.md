@@ -2,7 +2,7 @@
 
 _Unlocking Superstore Insights: Exploring Data in Bigquery with SQL_
 
-In the world of business, data-driven decisions are essential to success(rephrase this). Sales fIgure provide important insights to the performance of a company's products and regions. And one of the powerful data analysis tools that can be used to get insights from datasets is **SQL**
+In the world of business, data-driven decisions are essential to success(rephrase this). Sales fIgure provide important insights to the performance of a company's products and regions. And one of the powerful data analysis tools that can be used to get insights from datasets is **SQL**.
 
 ![](stationerystore.jpeg)
 
