@@ -28,5 +28,11 @@ I followed the following steps for the Data cleaning process;
 
 ![](Duplicate0.JPG)
 
-	Then I proceeded to filter each column to check for blanks, errors, misspellings or any outliers for further data cleaning.
+Then I proceeded to filter each column to check for blanks, errors, misspellings or any outliers for further data cleaning. 
+
+I discovered inconsistencies in the Order Date and Ship Date columns, I proceeded by correcting this with the Text to column tool in the Data ribbon as follows
+
+Old Order date column     				|     					New Order Date column
+:-------------------------------------------------------|:---------------------------------------------------------:
+![](Date1.JPG)						|	![](Date2.JPG)
 
