@@ -21,3 +21,4 @@ The first step I took in the data analysis process was importing the Superstore 
 I followed the following steps for the Data cleaning process;
 
 - Data Importation: To kick start with this analysis, I firstly imported the dataset from the File ribbon into the excel spreadsheet.
+![](DataImport.JPG)
