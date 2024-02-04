@@ -5,13 +5,14 @@ _Unlocking Superstore Insights: Exploring Data in Bigquery with SQL_
 In the world of business, data-driven decisions are essential to success(rephrase this). Sales fIgure provide important insights to the performance of a company's products and regions. And one of the powerful data analysis tools that can be used to get insights from datasets is **SQL**.
 
 ![](stationerystore.jpeg)
-
+                                        _stationery store_
 
 
 ##  Introduction
 
 In this project, I utilized Excel, SQL, and Power BI in the analysis of the Super store dataset from Kaggle. 
 The Super store is located in the United State and they sell stationeries. This Superstore data is hosted on Google Big Query for the analysis. 
+The purpose of this analysis is to understand and answer some business questions regarding the performance of the Look e-commerce marketplace, gain insights, and provide some recommendations to increase revenue.
 At the time of analysis, the Superstore recorded sales transaction data from 2014 – 2017. The entire data can be accessed here [superstore dataset](https://www.kaggle.com/datasets/ishanshrivastava28/superstore-sales)
 
 ## Data Cleaning Process
@@ -43,3 +44,7 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
      Before     				                                |     				Now
 :-------------------------------------------------------|:---------------------------------------------------------:
 ![](DelDay1.JPG)						                            |	![](DelDay2.JPG)
+
+
+- BUSINESS QUESTIONS
+1. What is the total revenue generated?
