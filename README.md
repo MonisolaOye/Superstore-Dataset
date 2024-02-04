@@ -32,7 +32,7 @@ Then I proceeded to filter each column to check for blanks, errors, misspellings
 
 I discovered inconsistencies in the Order Date and Ship Date columns, I proceeded by correcting this with the Text to column tool in the Data ribbon as follows
 
-Old Order date column     				|     					New Order Date column
+  Old Order date column     				                    |     					New Order Date column
 :-------------------------------------------------------|:---------------------------------------------------------:
-![](Date1.JPG)						|	![](Date2.JPG)
+![](Date1.JPG)						                              |	![](Date2.JPG)
 
