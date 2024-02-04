@@ -40,11 +40,16 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
 
 - Data Transformation: In order to calculate the Delivery day, a new column was inserted and the DATEDIF function was used to find the difference between the Ship date and Order date.
 
-
-     Before     				                                |     				Now
-:-------------------------------------------------------|:---------------------------------------------------------:
-![](DelDay1.JPG)						                            |	![](DelDay2.JPG)
+  Before    				                                    |     		    After
+:-------------------------------------------------------|:---------------------------------------------:
+![](DelDay1.JPG)						                            | ![](DelDay2.JPG)
+ 
 
 
 - BUSINESS QUESTIONS
+  
+  In order to further analyze the data to gain insights and find trends, the dataset was hosted on Bigquery to further find the KPIs for the Superstore to know its performance.
+  
 1. What is the total revenue generated?
+ The sum function was used
+![](Sales1.JPG)
