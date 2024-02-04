@@ -21,4 +21,12 @@ The first step I took in the data analysis process was importing the Superstore 
 I followed the following steps for the Data cleaning process;
 
 - Data Importation: To kick start with this analysis, I firstly imported the dataset from the File ribbon into the excel spreadsheet.
+
 ![](DataImport.JPG)
+
+- Data Cleaning:  To check the dataset for duplicates, I highlighted the whole columns from A to V, then clicked on the Data ribbon on remove duplicates but no duplicates was found.
+
+![](Duplicate0.JPG)
+
+	Then I proceeded to filter each column to check for blanks, errors, misspellings or any outliers for further data cleaning.
+
