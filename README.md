@@ -30,9 +30,16 @@ I followed the following steps for the Data cleaning process;
 
 Then I proceeded to filter each column to check for blanks, errors, misspellings or any outliers for further data cleaning. 
 
-I discovered inconsistencies in the Order Date and Ship Date columns, I proceeded by correcting this with the Text to column tool in the Data ribbon as follows
+I discovered inconsistencies in the Order Date and Ship Date columns, I proceeded by coverting the Date value to Date with the Text to column tool in the Data ribbon as follows;
 
   Old Order date column     				                    |     					New Order Date column
 :-------------------------------------------------------|:---------------------------------------------------------:
 ![](Date1.JPG)						                              |	![](Date2.JPG)
 
+
+- Data Transformation: In order to calculate the Delivery day, a new column was inserted and the DATEDIF function was used to find the difference between the Ship date and Order date.
+
+
+Before     				                                      |     				Now
+:-------------------------------------------------------|:---------------------------------------------------------:
+![](DelDay1.JPG)						                             |	![](DelDay2.JPG)
