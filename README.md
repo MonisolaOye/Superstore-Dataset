@@ -14,7 +14,7 @@ In this project, I utilized Excel, SQL, and Power BI in the analysis of the Supe
 The Super store is located in the United State and they sell stationeries. This Superstore data is hosted on Google Big Query for the analysis. 
 At the time of analysis, the Superstore recorded sales transaction data from 2014 – 2017. The entire data can be accessed here [superstore dataset](https://www.kaggle.com/datasets/ishanshrivastava28/superstore-sales)
 
-## Data Analysis Process
+## Data Cleaning Process
 
 The first step I took in the data analysis process was importing the Superstore dataset into Excel for data cleaning to check for errors and inconsistencies. The Superstore dataset comprises of information such as; Sales, Customer Name, Order date, Delivery date, Product category, Ship mode, Country, Region, Product Subcategory, Product Segment, Postal code.
 
@@ -40,6 +40,6 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
 - Data Transformation: In order to calculate the Delivery day, a new column was inserted and the DATEDIF function was used to find the difference between the Ship date and Order date.
 
 
-Before     				                                      |     				Now
+     Before     				                                |     				Now
 :-------------------------------------------------------|:---------------------------------------------------------:
-![](DelDay1.JPG)						                             |	![](DelDay2.JPG)
+![](DelDay1.JPG)						                            |	![](DelDay2.JPG)
