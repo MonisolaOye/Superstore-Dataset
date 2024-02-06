@@ -52,4 +52,11 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
   
 1. What is the total revenue generated?
  The sum function was used
-![](Sales1.JPG)
+
+![](Total1.JPG)
+      **Total Sales.sql**
+
+![](Total2.JPG)
+      **Total Sales**
+
+_##Insight_
