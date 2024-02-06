@@ -40,10 +40,10 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
 
 - Data Transformation: In order to calculate the Delivery day, a new column was inserted and the DATEDIF function was used to find the difference between the Ship date and Order date.
 
-  Before    				                                    |     		    After
-:-------------------------------------------------------|:---------------------------------------------:
-![](DelDay1.JPG)						                            | ![](DelDay2.JPG)
- 
+
+ BEFORE                      				                    |     				AFTER
+:-------------------------------------------------------|:---------------------------------------------------------:
+![](DelDay1.JPG)						                            |	![](DelDay2.JPG)
 
 
 - BUSINESS QUESTIONS
