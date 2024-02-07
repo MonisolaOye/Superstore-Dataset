@@ -54,10 +54,10 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
  The sum function was used in calculating the total sales as shown in the image below
 
 ![](Total1.JPG)
-      **Total Sales.sql**
+      _**Total Sales.sql**_
 
 ![](Total2.JPG)
-      **Total Sales**
+        _**Total Sales**_
 
 _Insight_:
 - The total revenue generated throughout the years is $22,972,000
