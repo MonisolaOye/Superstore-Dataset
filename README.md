@@ -55,10 +55,10 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
  The sum function was used in calculating the total sales as shown in the image below;
 
 ![](Total1.JPG)
-        _Total Sales.sql_
+   _Total Sales.sql_
 
 ![](Total2.JPG)
-        _Total Sales_
+    _Total Sales_
 
 _Insight_:
 - The total revenue generated throughout the years is $22,972,000
@@ -68,7 +68,16 @@ _Insight_:
   The Count function was used in getting the total number of order received as shown in the image below;
 
 ![](Order1.JPG)
-         _Total Order.sql_
+    _Total Order.sql_
 
 ![](Order2.JPG)
+  _Total Order_
+
+_Insight_:
+The total number order received is 9994
+
+3. What is the sales made per each year?
+   The EXTRACT function was used get get the unique year number and the SUM function was used to get yearly sales
+
+   
 
