@@ -51,13 +51,24 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
   In order to further analyze the data to gain insights and find trends, the dataset was hosted on Bigquery to further find the KPIs for the Superstore to know its performance.
   
 1. What is the total revenue generated?
- The sum function was used in calculating the total sales as shown in the image below
+ 
+ The sum function was used in calculating the total sales as shown in the image below;
 
 ![](Total1.JPG)
-      _**Total Sales.sql**_
+        _Total Sales.sql_
 
 ![](Total2.JPG)
-        _**Total Sales**_
+        _Total Sales_
 
 _Insight_:
 - The total revenue generated throughout the years is $22,972,000
+
+2.  What is  the total number of order received?
+
+  The Count function was used in getting the total number of order received as shown in the image below;
+
+![](Order1.JPG)
+         _Total Order.sql_
+
+![](Order2.JPG)
+
