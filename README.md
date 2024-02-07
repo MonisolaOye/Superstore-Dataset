@@ -41,7 +41,7 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
 - Data Transformation: In order to calculate the Delivery day, a new column was inserted and the DATEDIF function was used to find the difference between the Ship date and Order date.
 
 
- BEFORE                      				                    |     				AFTER
+ Before                      				                    |     				After
 :-------------------------------------------------------|:---------------------------------------------------------:
 ![](DelDay1.JPG)						                            |	![](DelDay2.JPG)
 
@@ -51,7 +51,7 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
   In order to further analyze the data to gain insights and find trends, the dataset was hosted on Bigquery to further find the KPIs for the Superstore to know its performance.
   
 1. What is the total revenue generated?
- The sum function was used
+ The sum function was used in calculating the total sales as shown in the image below
 
 ![](Total1.JPG)
       **Total Sales.sql**
@@ -59,4 +59,5 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
 ![](Total2.JPG)
       **Total Sales**
 
-_##Insight_
+_Insight_:
+- The total revenue generated throughout the years is $22,972,000
