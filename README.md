@@ -54,11 +54,14 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
  
  The sum function was used in calculating the total sales as shown in the image below;
 
-![](Total1.JPG)
-   _Total Sales.sql_
 
-![](Total2.JPG)
-    _Total Sales_
+
+  Query                  				                        |     				Result
+:-------------------------------------------------------|:---------------------------------------------------------:
+![](Total1.JPG)						                              |	![](Total2.JPG)
+
+ _Total Sales_- Image by Author
+
 
 _Insight_:
 - The total revenue generated throughout the years is $22,972,000
@@ -67,11 +70,12 @@ _Insight_:
 
   The Count function was used in getting the total number of order received as shown in the image below;
 
-![](Order1.JPG)
-    _Total Order.sql_
 
-![](Order2.JPG)
-  _Total Order_
+Query                  				                          |     				Result
+:-------------------------------------------------------|:---------------------------------------------------------:
+![](Order1.JPG)						                              |	![](Order2.JPG)
+
+
 
 _Insight_:
 The total number order received is 9994
@@ -80,13 +84,12 @@ The total number order received is 9994
 
 The EXTRACT function was used get the unique year number and the SUM function was used to get yearly sales as shown in the image below
 
-![](YS1.JPG)
-  
- _Yearly Sales.sql_
 
-![](YS2.JPG)
-    
- _Yearly Sales_
+ Query                  				                        |     				Result
+:-------------------------------------------------------|:---------------------------------------------------------:
+![](YS1.JPG)						                                |	![](YS2.JPG)
+
+
 
 _Insight_:
 - The sales increase steadily over the years. 2017 had the largest sales number
@@ -94,34 +97,37 @@ _Insight_:
 4. Which States had the highest and lowest sales?
  
 
-TOP5 States.SQL                   				              |     				LOWEST5 States.SQL
+TOP5 States in sales                   				           |     				Result
 :-------------------------------------------------------|:---------------------------------------------------------:
-![](SQTOP1.JPG)						                              |	![](SQLOW.JPG)
+![](SQTOP1.JPG)						                              |	![](SATOP.JPG)
 
 
-TOP5 States Sales                  				              |     				LOWEST5 States Sales
+BOTTOM5 States Sales                  				           |     				Result
 :-------------------------------------------------------|:---------------------------------------------------------:
-![](SATOP.JPG)						                              |	![](SALOW.JPG)
+![](SQLOW.JPG)						                              |	![](SALOW.JPG)
 
 _Insight_:
 
 
 5. What are the highest sold products and the least sold  products in sales?
 
-TOP5 Products.sql                  				              |     				LOWEST5 Products.sql
+TOP5 Products in sales                 				           |     				LOWEST5 Products.sql
 :-------------------------------------------------------|:---------------------------------------------------------:
-![](PQTOP.JPG)						                              |	![](PQLOW.JPG)
+![](PQTOP.JPG)						                              |	![](PATOP.JPG)
 
 
-TOP5 Products Sales                  				            |     				LOWEST5 Products Sales
+BOTTOM5 Products in sales                  				       |     				LOWEST5 Products Sales
 :-------------------------------------------------------|:---------------------------------------------------------:
-![](PATOP.JPG)						                              |	![](PALOW.JPG)
+![](PQLOWP.JPG)						                              |	![](PQLOW.JPG)
 
 
-5. Sales by Product categories and Segment
+6. Sales by Product categories and Segment
 
+![](ProductCategory.JPG)
    
 7. Sales by Region
+
+![](region.JPG)
 
 8. Shipmode by Customer's preference
    
