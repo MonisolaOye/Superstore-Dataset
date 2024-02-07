@@ -78,7 +78,7 @@ The total number order received is 9994
 
 3. What is the sales made per each year?
 
-The EXTRACT function was used get get the unique year number and the SUM function was used to get yearly sales as shown in the image below
+The EXTRACT function was used get the unique year number and the SUM function was used to get yearly sales as shown in the image below
 
 ![](YS1.JPG)
     _Yearly Sales.sql_
@@ -89,15 +89,21 @@ The EXTRACT function was used get get the unique year number and the SUM functio
 _Insight_:
 - The sales increase steadily over the years. 2017 had the largest sales number
 
-  4. Which States had the highest and lowest sales?
+4. Which States had the highest and lowest sales?
  
 
-TOP5 States.SQL                   				               |     				LOWEST5 States.SQL
+TOP5 States.SQL                   				              |     				LOWEST5 States.SQL
 :-------------------------------------------------------|:---------------------------------------------------------:
-![](SQTOP.JPG)						                              |	![](SQLOW.JPG)
+![](SQTOP1.JPG)						                              |	![](SQLOW.JPG)
 
 
 TOP5 States Sales                  				              |     				LOWEST5 States Sales
 :-------------------------------------------------------|:---------------------------------------------------------:
 ![](SATOP.JPG)						                              |	![](SALOW.JPG)
+
+_Insight_:
+
+
+5. What are the highest sold products and the least sild  products in sales?
+
 
