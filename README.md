@@ -62,10 +62,6 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
 
  _Total Sales_- Image by Author
 
-
-_Insight_:
-- The total revenue generated throughout the years is $22,972,000
-
 2.  What is  the total number of order received?
 
   The Count function was used in getting the total number of order received as shown in the image below;
@@ -77,9 +73,6 @@ Query                  				                          |     				Result
 
 
 
-_Insight_:
-The total number order received is 9994
-
 3. What is the sales made per each year?
 
 The EXTRACT function was used get the unique year number and the SUM function was used to get yearly sales as shown in the image below
@@ -90,9 +83,6 @@ The EXTRACT function was used get the unique year number and the SUM function wa
 ![](YS1.JPG)						                                |	![](YS2.JPG)
 
 
-
-_Insight_:
-- The sales increase steadily over the years. 2017 had the largest sales number
 
 4. Which States had the highest and lowest sales?
  
@@ -106,7 +96,6 @@ BOTTOM5 States Sales                  				           |     				Result
 :-------------------------------------------------------|:---------------------------------------------------------:
 ![](SQLOW.JPG)						                              |	![](SALOW.JPG)
 
-_Insight_:
 
 
 5. What are the highest sold products and the least sold  products in sales?
@@ -123,13 +112,24 @@ BOTTOM5 Products in sales                  				       |     				LOWEST5 Products
 
 6. Sales by Product categories and Segment
 
-![](ProductCategory.JPG)
+
+Query                  				                          |     				Result
+:-------------------------------------------------------|:---------------------------------------------------------:
+![](prod1.JPG)						                              |	![](prod2.JPG)
+
    
 7. Sales by Region
 
-![](region.JPG)
+
+Query                  				                          |     				Result
+:-------------------------------------------------------|:---------------------------------------------------------:
+![](reg1.JPG)						                                |	![](reg2.JPG)
+
 
 8. Shipmode by Customer's preference
    
-![](shippp.JPG)
+
+Query                  				                          |     				Result
+:-------------------------------------------------------|:---------------------------------------------------------:
+![](ship1.JPG)						                              |	![](ship2.JPG)
 
