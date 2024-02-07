@@ -118,8 +118,12 @@ TOP5 Products Sales                  				            |     				LOWEST5 Products 
 ![](PATOP.JPG)						                              |	![](PALOW.JPG)
 
 
-5. jk
-6. Shipmode by Customer's preference
-   
+5. Sales by Product categories and Segment
 
+   
+7. Sales by Region
+
+8. Shipmode by Customer's preference
+   
+![](shippp.JPG)
 
