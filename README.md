@@ -81,10 +81,12 @@ The total number order received is 9994
 The EXTRACT function was used get the unique year number and the SUM function was used to get yearly sales as shown in the image below
 
 ![](YS1.JPG)
-    _Yearly Sales.sql_
+  
+ _Yearly Sales.sql_
 
 ![](YS2.JPG)
-    _Yearly Sales_
+    
+ _Yearly Sales_
 
 _Insight_:
 - The sales increase steadily over the years. 2017 had the largest sales number
@@ -104,6 +106,20 @@ TOP5 States Sales                  				              |     				LOWEST5 States Sa
 _Insight_:
 
 
-5. What are the highest sold products and the least sild  products in sales?
+5. What are the highest sold products and the least sold  products in sales?
+
+TOP5 Products.sql                  				              |     				LOWEST5 Products.sql
+:-------------------------------------------------------|:---------------------------------------------------------:
+![](PQTOP.JPG)						                              |	![](PQLOW.JPG)
+
+
+TOP5 Products Sales                  				            |     				LOWEST5 Products Sales
+:-------------------------------------------------------|:---------------------------------------------------------:
+![](PATOP.JPG)						                              |	![](PALOW.JPG)
+
+
+5. jk
+6. Shipmode by Customer's preference
+   
 
 
