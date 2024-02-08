@@ -79,14 +79,14 @@ The CAST function was used to convert the integer to FLOAT64 and the SUM was use
 
  Query                  				                        |     				Result
 :-------------------------------------------------------|:---------------------------------------------------------:
-![](YS1.JPG)						                                |	![](YS2.JPG)
+![](Qty1.JPG)						                                |	![](Qty2.JPG)
 
 
 4. **Total quantities sold per each Product Category?**
 
 Query                  				                          |     				Result
 :-------------------------------------------------------|:---------------------------------------------------------:
-![](Order1.JPG)						                              |	![](Order2.JPG)
+![](PQty1.JPG)						                              |	![](PQty2.JPG)
 
  _Total Order_- Image by Author
    
@@ -100,11 +100,17 @@ The EXTRACT function was used get the unique year number and the SUM function wa
 ![](YS1.JPG)						                                |	![](YS2.JPG)
 
 
+6. **Total Quantites Sold per each year**
+
+ Query                  				                        |     				Result
+:-------------------------------------------------------|:---------------------------------------------------------:
+![](YQty1.JPG)						                                |	![](YQty2.JPG)
+
 
 5. **States with the highest and least sales**
  
 
-TOP5 States in sales                   				           |     				Result
+TOP5 States sales                   				           |     				Result
 :-------------------------------------------------------|:---------------------------------------------------------:
 ![](SQTOP1.JPG)						                              |	![](SATOP.JPG)
 
@@ -124,7 +130,7 @@ TOP5 Products in sales                 				           |     				LOWEST5 Products
 
 BOTTOM5 Products in sales                  				       |     				LOWEST5 Products Sales
 :-------------------------------------------------------|:---------------------------------------------------------:
-![](PQLOWP.JPG)						                              |	![](PQLOW.JPG)
+![](PALOW.JPG)						                              |	![](PQLOW.JPG)
 
 
 7. **Sales by Product categories and Segment**
