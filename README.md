@@ -50,9 +50,9 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
   
   In order to further analyze the data to gain insights and find trends, the dataset was hosted on Bigquery to further find the KPIs for the Superstore to know its performance.
   
-1. What is the total revenue generated?
+1. **Total Sales made**
  
- The sum function was used in calculating the total sales as shown in the image below;
+ The SUM function was used in calculating the total sales as shown in the image below;
 
 
 
@@ -62,7 +62,7 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
 
  _Total Sales_- Image by Author
 
-2.  What is  the total number of order received?
+2. **Total number of order received**
 
   The Count function was used in getting the total number of order received as shown in the image below;
 
@@ -71,9 +71,26 @@ Query                  				                          |     				Result
 :-------------------------------------------------------|:---------------------------------------------------------:
 ![](Order1.JPG)						                              |	![](Order2.JPG)
 
+ _Total Order_- Image by Author
 
 
-3. What is the sales made per each year?
+3. **Total Quantity Sold**
+The CAST function was used to convert the integer to FLOAT64 and the SUM was used to find the total quantity sold
+
+ Query                  				                        |     				Result
+:-------------------------------------------------------|:---------------------------------------------------------:
+![](YS1.JPG)						                                |	![](YS2.JPG)
+
+
+4. **Total quantities sold per each Product Category?**
+
+Query                  				                          |     				Result
+:-------------------------------------------------------|:---------------------------------------------------------:
+![](Order1.JPG)						                              |	![](Order2.JPG)
+
+ _Total Order_- Image by Author
+   
+4. **Sales made per each year**
 
 The EXTRACT function was used get the unique year number and the SUM function was used to get yearly sales as shown in the image below
 
@@ -84,7 +101,7 @@ The EXTRACT function was used get the unique year number and the SUM function wa
 
 
 
-4. Which States had the highest and lowest sales?
+5. **States with the highest and least sales**
  
 
 TOP5 States in sales                   				           |     				Result
@@ -98,7 +115,7 @@ BOTTOM5 States Sales                  				           |     				Result
 
 
 
-5. What are the highest sold products and the least sold  products in sales?
+6. What are the highest sold products and the least sold  products in sales?
 
 TOP5 Products in sales                 				           |     				LOWEST5 Products.sql
 :-------------------------------------------------------|:---------------------------------------------------------:
@@ -110,7 +127,7 @@ BOTTOM5 Products in sales                  				       |     				LOWEST5 Products
 ![](PQLOWP.JPG)						                              |	![](PQLOW.JPG)
 
 
-6. Sales by Product categories and Segment
+7. **Sales by Product categories and Segment**
 
 
 Query                  				                          |     				Result
