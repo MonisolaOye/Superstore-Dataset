@@ -1,0 +1,4 @@
+SELECT CAST(SUM(Quantity) AS FLOAT64) as Total_sold, Category, Region, ROUND(SUM(Sales),0) as Total_Sales
+FROM `coastal-stone-366510.sales.superstore`
+GROUP BY Category, Region
+ORDER BY Category, Total_sold desc, Total_Sales desc
