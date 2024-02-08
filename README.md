@@ -74,15 +74,16 @@ Query                  				                          |     				Result
  _Total Order_- Image by Author
 
 
-3. **Total Quantity Sold**
+3. **Total Quantities Sold**
 The CAST function was used to convert the integer to FLOAT64 and the SUM was used to find the total quantity sold
 
  Query                  				                        |     				Result
 :-------------------------------------------------------|:---------------------------------------------------------:
 ![](Qty1.JPG)						                                |	![](Qty2.JPG)
 
+_Total Quantities Sold_- Image by Author
 
-4. **Total quantities sold per each Product Category?**
+4. **Total quantities sold per each Product Category**
 
 Query                  				                          |     				Result
 :-------------------------------------------------------|:---------------------------------------------------------:
@@ -141,7 +142,7 @@ Query                  				                          |     				Result
 ![](prod1.JPG)						                              |	![](prod2.JPG)
 
    
-7. Sales by Region
+7. **Sales by Region**
 
 
 Query                  				                          |     				Result
@@ -149,7 +150,7 @@ Query                  				                          |     				Result
 ![](reg1.JPG)						                                |	![](reg2.JPG)
 
 
-8. Shipmode by Customer's preference
+8. **Shipmode by Customer's preference**
    
 
 Query                  				                          |     				Result
