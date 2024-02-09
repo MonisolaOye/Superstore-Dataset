@@ -11,13 +11,13 @@ In the world of business, data-driven decisions are essential to success(rephras
 ##  Introduction
 
 In this project, I utilized Excel, SQL, and Power BI in the analysis of the Super store dataset from Kaggle. 
-The Super store is located in the United State and they sell stationeries. This Superstore data is hosted on Google Big Query for the analysis. 
-The purpose of this analysis is to understand and answer some business questions regarding the performance of the Look e-commerce marketplace, gain insights, and provide some recommendations to increase revenue.
+The Super store is located in the United State and they sell stationeries. This Superstore data is hosted on Google BigQuery for the analysis. 
+The purpose of this analysis is to understand and answer some business questions regarding the performance of the Superstore, gain insights, and provide some recommendations to increase revenue.
 At the time of analysis, the Superstore recorded sales transaction data from 2014 – 2017. The entire data can be accessed here [superstore dataset](https://www.kaggle.com/datasets/ishanshrivastava28/superstore-sales)
 
 ## Data Cleaning Process
 
-The first step I took in the data analysis process was importing the Superstore dataset into Excel for data cleaning to check for errors and inconsistencies. The Superstore dataset comprises of information such as; Sales, Customer Name, Order date, Delivery date, Product category, Ship mode, Country, Region, Product Subcategory, Product Segment, Postal code.
+The first step I took in the data analysis process was to import the Superstore dataset into Excel for data cleaning to check for errors and inconsistencies. The Superstore dataset comprises of information such as; Sales, Customer Name, Order date, Delivery date, Product category, Ship mode, Country, Region, Product Subcategory, Product Segment, Postal code.
 
 I followed the following steps for the Data cleaning process;
 
@@ -32,6 +32,7 @@ I followed the following steps for the Data cleaning process;
 Then I proceeded to filter each column to check for blanks, errors, misspellings or any outliers for further data cleaning. 
 
 I discovered inconsistencies in the Order Date and Ship Date columns, I proceeded by coverting the Date value to Date with the Text to column tool in the Data ribbon as follows;
+
 
   Old Order date column     				                    |     					New Order Date column
 :-------------------------------------------------------|:---------------------------------------------------------:
@@ -50,21 +51,26 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
   
   In order to further analyze the data to gain insights and find trends, the dataset was hosted on Bigquery to further find the KPIs for the Superstore to know its performance.
   
-1. **Total Sales made**
+1. **Total Revenue Generated**
  
  The SUM function was used in calculating the total sales as shown in the image below;
 
+```sql
+SELECT  sum(Sales)
+FROM `coastal-stone-366510.sales.superstore`
+```
 
+![](Total2.JPG)
+_Total Sales_- Image by Author
 
-  Query                  				                        |     				Result
-:-------------------------------------------------------|:---------------------------------------------------------:
-![](Total1.JPG)						                              |	![](Total2.JPG)
-
- _Total Sales_- Image by Author
 
 2. **Total number of order received**
 
   The Count function was used in getting the total number of order received as shown in the image below;
+```sql
+SELECT  sum(Sales)
+FROM `coastal-stone-366510.sales.superstore`
+```
 
 
 Query                  				                          |     				Result
@@ -75,15 +81,24 @@ Query                  				                          |     				Result
 
 
 3. **Total Quantities Sold**
+
 The CAST function was used to convert the integer to FLOAT64 and the SUM was used to find the total quantity sold
 
- Query                  				                        |     				Result
-:-------------------------------------------------------|:---------------------------------------------------------:
-![](Qty1.JPG)						                                |	![](Qty2.JPG)
-
+```sql
+SELECT CAST(SUM(Quantity) AS FLOAT64) as Total_Quantities
+FROM `coastal-stone-366510.sales.superstore`
+```
+PICTURE!
 _Total Quantities Sold_- Image by Author
 
 4. **Total quantities sold per each Product Category**
+
+```sql
+SELECT CAST(SUM(Quantity) AS FLOAT64) as Total_Quantities, Category
+FROM `coastal-stone-366510.sales.superstore`
+GROUP BY Category
+ORDER BY Total_Quantities desc
+```
 
 Query                  				                          |     				Result
 :-------------------------------------------------------|:---------------------------------------------------------:
