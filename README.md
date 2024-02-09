@@ -154,36 +154,58 @@ _Least 5 States in Sales_ - Image by Author
 
 6. What are the highest sold products and the least sold  products in sales?
 
-TOP5 Products in sales                 				           |     				LOWEST5 Products.sql
-:-------------------------------------------------------|:---------------------------------------------------------:
-![](PQTOP.JPG)						                              |	![](PATOP.JPG)
+TOP5 Products in sales                 				           
+```sql
+SELECT round(sum(sales),1) as sales, Sub_Category 
+FROM `coastal-stone-366510.sales.superstore` 
+GROUP BY Sub_Category
+ORDER BY sales desc
+LIMIT 5
+```
+
+![](PATOP.JPG)
 
 
-BOTTOM5 Products in sales                  				       |     				LOWEST5 Products Sales
-:-------------------------------------------------------|:---------------------------------------------------------:
-![](PALOW.JPG)						                              |	![](PQLOW.JPG)
+BOTTOM5 Products in sales
+```sql
+SELECT round(sum(sales),1) as sales, Sub_Category 
+FROM `coastal-stone-366510.sales.superstore` 
+GROUP BY Sub_Category
+ORDER BY sales 
+LIMIT 5
+```
+![](PALOW.JPG)
 
 
-7. **Sales by Product categories and Segment**
+7. **Sales by Product categories and Segment*8
 
-
-Query                  				                          |     				Result
-:-------------------------------------------------------|:---------------------------------------------------------:
-![](prod1.JPG)						                              |	![](prod2.JPG)
+```sql
+SELECT Category, Segment, round(sum(Sales),0) as TotalSales
+FROM `coastal-stone-366510.sales.superstore`
+GROUP BY Category,Segment
+ORDER BY TotalSales desc
+```
+![](prod2.JPG)
 
    
 7. **Sales by Region**
 
-
-Query                  				                          |     				Result
-:-------------------------------------------------------|:---------------------------------------------------------:
-![](reg1.JPG)						                                |	![](reg2.JPG)
+```sql
+SELECT  round(sum(Sales),1) as sales, Region
+FROM `coastal-stone-366510.sales.superstore`
+GROUP BY Region
+ORDER BY sales desc
+```
+![](reg2.JPG)
 
 
 8. **Shipmode by Customer's preference**
-   
 
-Query                  				                          |     				Result
-:-------------------------------------------------------|:---------------------------------------------------------:
-![](ship1.JPG)						                              |	![](ship2.JPG)
+```sql
+SELECT count(Customer_ID) as customer, Ship_Mode
+ FROM `coastal-stone-366510.sales.superstore` 
+ GROUP BY Ship_Mode
+ ORDER BY customer desc
+```
+![](ship2.JPG)
 
