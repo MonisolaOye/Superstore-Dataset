@@ -96,36 +96,47 @@ FROM `coastal-stone-366510.sales.superstore`
 GROUP BY Category
 ORDER BY Total_Quantities desc
 ```
-
-Query                  				                          |     				Result
-:-------------------------------------------------------|:---------------------------------------------------------:
-![](PQty1.JPG)						                              |	![](PQty2.JPG)
-
+PICTURE!
  _Total Order_- Image by Author
    
 4. **Sales made per each year**
 
 The EXTRACT function was used get the unique year number and the SUM function was used to get yearly sales as shown in the image below
 
+```sql
+SELECT ROUND(SUM(sales), 0) AS TotalSales, EXTRACT(YEAR FROM Order_Date) AS Order_Year
+FROM coastal-stone-366510.sales.superstore
+GROUP BY Order_Year
+ORDER BY Order_Year;
+```
 
- Query                  				                        |     				Result
-:-------------------------------------------------------|:---------------------------------------------------------:
-![](YS1.JPG)						                                |	![](YS2.JPG)
-
+![](YS2.JPG)
+ _Yearly Sales_- Image by Author
 
 6. **Total Quantites Sold per each year**
 
- Query                  				                        |     				Result
-:-------------------------------------------------------|:---------------------------------------------------------:
-![](YQty1.JPG)						                                |	![](YQty2.JPG)
+```sql
+SELECT CAST(SUM(Quantity) AS FLOAT64) as Total_Quantities, EXTRACT(YEAR FROM Order_Date) AS Order_Year
+FROM `coastal-stone-366510.sales.superstore`
+GROUP BY Order_Year
+ORDER BY Order_Year
+```
+![](YQty2.JPG)
+
+_Yearly Sales_- Image by Author
 
 
 5. **States with the highest and least sales**
- 
+TOP5
+```sql
+SELECT round(sum(Sales),1) as sales, State
+FROM `coastal-stone-366510.sales.superstore` 
+GROUP BY State
+ORDER BY sales desc
+LIMIT 5
+```
+![](SATOP.JPG)
 
-TOP5 States sales                   				           |     				Result
-:-------------------------------------------------------|:---------------------------------------------------------:
-![](SQTOP1.JPG)						                              |	![](SATOP.JPG)
 
 
 BOTTOM5 States Sales                  				           |     				Result
