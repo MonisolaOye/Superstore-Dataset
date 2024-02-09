@@ -8,14 +8,14 @@ In the world of business, data-driven decisions are essential to success(rephras
                                         _stationery store_
 
 
-##  Introduction
+##  PROJECT OVERVIEW
 
 In this project, I utilized Excel, SQL, and Power BI in the analysis of the Super store dataset from Kaggle. 
 The Super store is located in the United State and they sell stationeries. This Superstore data is hosted on Google BigQuery for the analysis. 
 The purpose of this analysis is to understand and answer some business questions regarding the performance of the Superstore, gain insights, and provide some recommendations to increase revenue.
 At the time of analysis, the Superstore recorded sales transaction data from 2014 – 2017. The entire data can be accessed here [superstore dataset](https://www.kaggle.com/datasets/ishanshrivastava28/superstore-sales)
 
-## Data Cleaning Process
+### Data Cleaning Process
 
 The first step I took in the data analysis process was to import the Superstore dataset into Excel for data cleaning to check for errors and inconsistencies. The Superstore dataset comprises of information such as; Sales, Customer Name, Order date, Delivery date, Product category, Ship mode, Country, Region, Product Subcategory, Product Segment, Postal code.
 
@@ -47,11 +47,11 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
 ![](DelDay1.JPG)						                            |	![](DelDay2.JPG)
 
 
-- BUSINESS QUESTIONS
+## BUSINESS QUESTIONS
   
-  In order to further analyze the data to gain insights and find trends, the dataset was hosted on Bigquery to further find the KPIs for the Superstore to know its performance.
+In order to further analyze the data to gain insights and find trends, the dataset was hosted on Bigquery to further find the KPIs for the Superstore to know its performance.
   
-1. **Total Revenue Generated**
+1. _**Total Revenue Generated**_
  
  The SUM function was used in calculating the total sales as shown in the image below;
 
