@@ -64,20 +64,17 @@ FROM `coastal-stone-366510.sales.superstore`
 _Total Sales_- Image by Author
 
 
+
 2. **Total number of order received**
 
   The Count function was used in getting the total number of order received as shown in the image below;
 ```sql
-SELECT  sum(Sales)
+SELECT  count(Order_ID) AS Num_of_Order
 FROM `coastal-stone-366510.sales.superstore`
 ```
-
-
-Query                  				                          |     				Result
-:-------------------------------------------------------|:---------------------------------------------------------:
-![](Order1.JPG)						                              |	![](Order2.JPG)
-
+![](Order2.JPG)
  _Total Order_- Image by Author
+
 
 
 3. **Total Quantities Sold**
