@@ -135,7 +135,7 @@ GROUP BY State
 ORDER BY sales desc
 LIMIT 5
 ```
-![](Qty1.JPG)
+![](state1.JPG)
 _Top 5 States in Sales_ - Image by Author
 
 b. BOTTOM5
@@ -146,7 +146,7 @@ GROUP BY State
 ORDER BY sales asc
 LIMIT 5
 ```
-![](Qty2.JPG)
+![](state2.JPG)
 
 _Least 5 States in Sales_ - Image by Author
 
