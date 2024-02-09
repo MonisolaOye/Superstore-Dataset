@@ -96,7 +96,7 @@ FROM `coastal-stone-366510.sales.superstore`
 GROUP BY Category
 ORDER BY Total_Quantities desc
 ```
-![CQty](.JPG)
+![](CQty.JPG)
  _Total Order_- Image by Author
    
 4. **Sales made per each year**
