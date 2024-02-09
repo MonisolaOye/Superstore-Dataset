@@ -127,7 +127,7 @@ _Yearly Sales_- Image by Author
 
 
 5. **States with the highest and least sales**
-TOP5
+a. TOP5
 ```sql
 SELECT round(sum(Sales),1) as sales, State
 FROM `coastal-stone-366510.sales.superstore` 
@@ -135,14 +135,21 @@ GROUP BY State
 ORDER BY sales desc
 LIMIT 5
 ```
-![](SATOP.JPG)
+PICTURE!
 
+_Top 5 States in Sales_ - Image by Author
 
+b. BOTTOM5
+```sql
+SELECT round(sum(Sales),1) as sales, State
+FROM `coastal-stone-366510.sales.superstore` 
+GROUP BY State
+ORDER BY sales asc
+LIMIT 5
+```
+![](SALOW.JPG) NEW!
 
-BOTTOM5 States Sales                  				           |     				Result
-:-------------------------------------------------------|:---------------------------------------------------------:
-![](SQLOW.JPG)						                              |	![](SALOW.JPG)
-
+_Least 5 States in Sales_ - Image by Author
 
 
 6. What are the highest sold products and the least sold  products in sales?
