@@ -85,7 +85,7 @@ The CAST function was used to convert the integer to FLOAT64 and the SUM was use
 SELECT CAST(SUM(Quantity) AS FLOAT64) as Total_Quantities
 FROM `coastal-stone-366510.sales.superstore`
 ```
-PICTURE!
+![](TQty.JPG)
 _Total Quantities Sold_- Image by Author
 
 4. **Total quantities sold per each Product Category**
@@ -96,7 +96,7 @@ FROM `coastal-stone-366510.sales.superstore`
 GROUP BY Category
 ORDER BY Total_Quantities desc
 ```
-PICTURE!
+![CQty](.JPG)
  _Total Order_- Image by Author
    
 4. **Sales made per each year**
@@ -135,8 +135,7 @@ GROUP BY State
 ORDER BY sales desc
 LIMIT 5
 ```
-PICTURE!
-
+![](Qty1.JPG)
 _Top 5 States in Sales_ - Image by Author
 
 b. BOTTOM5
@@ -147,7 +146,7 @@ GROUP BY State
 ORDER BY sales asc
 LIMIT 5
 ```
-![](SALOW.JPG) NEW!
+![](Qty2.JPG)
 
 _Least 5 States in Sales_ - Image by Author
 
