@@ -208,3 +208,9 @@ SELECT count(Customer_ID) as customer, Ship_Mode
 ```
 ![](ship2.JPG)
 
+##OBSERVATIONS
+- The total revenue generated was $2297200
+- The quantities sold was 37873
+- The total number of order received was 9994
+- The products sold in the Superstore are divided into three categories: Office supplies, Technology and Furniture
+- Total sales increased over the years and so was the total quantities sold
