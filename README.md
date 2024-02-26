@@ -208,9 +208,15 @@ SELECT count(Customer_ID) as customer, Ship_Mode
 ```
 ![](ship2.JPG)
 
-##OBSERVATIONS
-- The total revenue generated was $2297200
-- The quantities sold was 37873
+## OBSERVATIONS
+- The total revenue generated was $2,297,200
+- The quantities sold was 37873 units
 - The total number of order received was 9994
-- The products sold in the Superstore are divided into three categories: Office supplies, Technology and Furniture
-- Total sales increased over the years and so was the total quantities sold
+- The products sold in the Superstore are divided into three categories: Office supplies, Technology and Furniture.  Office supplies had the highest sales, followed by Furniture while Technology had the least sales
+- Total sales increased over the years and so was the total quantities sold.
+- The West region had the highest sales, followed by East, then Central while the South region had the least sales.
+- The State with the highest sales was California while North Dakota had the least sales
+- The 
+- The delivery was by Ship mode which was divided into four classes: First class, Standard class, Second class and Same day. Standard class was the most preferred by the customers, followed by Second class, followed by First class and lastly Same day.
+
+## RECOMMENDATIONS
