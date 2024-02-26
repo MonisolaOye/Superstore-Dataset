@@ -216,7 +216,7 @@ SELECT count(Customer_ID) as customer, Ship_Mode
 - Total sales increased over the years and so was the total quantities sold.
 - The West region had the highest sales, followed by East, then Central while the South region had the least sales.
 - The State with the highest sales was California while North Dakota had the least sales
-- The 
+- Their top5 products sold are Phones, Chairs, Storage, Tables and Binders while the bottom5 are Fasteners, Labels, Envelopes, Art and Supplies
 - The delivery was by Ship mode which was divided into four classes: First class, Standard class, Second class and Same day. Standard class was the most preferred by the customers, followed by Second class, followed by First class and lastly Same day.
 
 ## RECOMMENDATIONS
