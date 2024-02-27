@@ -42,7 +42,7 @@ I discovered inconsistencies in the Order Date and Ship Date columns, I proceede
 - Data Transformation: In order to calculate the Delivery day, a new column was inserted and the DATEDIF function was used to find the difference between the Ship date and Order date.
 
 
- Before                      				                    |     				After
+ Formula                      				                  |     				Result
 :-------------------------------------------------------|:---------------------------------------------------------:
 ![](DelDay1.JPG)						                            |	![](DelDay2.JPG)
 
@@ -65,9 +65,10 @@ _Total Sales_- Image by Author
 
 
 
-2. **Total number of order received**
+2. _**Total number of order received**_
 
   The Count function was used in getting the total number of order received as shown in the image below;
+
 ```sql
 SELECT  count(Order_ID) AS Num_of_Order
 FROM `coastal-stone-366510.sales.superstore`
@@ -77,9 +78,9 @@ FROM `coastal-stone-366510.sales.superstore`
 
 
 
-3. **Total Quantities Sold**
+3. _**Total Quantities Sold**_
 
-The CAST function was used to convert the integer to FLOAT64 and the SUM was used to find the total quantity sold
+The CAST function was used to convert the integer to FLOAT64 and the SUM was used to find the total quantity sold as shown in the image below;
 
 ```sql
 SELECT CAST(SUM(Quantity) AS FLOAT64) as Total_Quantities
@@ -88,7 +89,10 @@ FROM `coastal-stone-366510.sales.superstore`
 ![](TQty.JPG)
 _Total Quantities Sold_- Image by Author
 
-4. **Total quantities sold per each Product Category**
+
+4. _**Total quantities sold per each Product Category**_
+
+The CAST function was used to convert the integer to FLOAT64 and the SUM was used to find the total quantity sold. The GROUP BY was used to group the different product categories as shown in the image below;
 
 ```sql
 SELECT CAST(SUM(Quantity) AS FLOAT64) as Total_Quantities, Category
@@ -99,7 +103,7 @@ ORDER BY Total_Quantities desc
 ![](CQty.JPG)
  _Total Order_- Image by Author
    
-4. **Sales made per each year**
+5. _**Sales made per each year**_
 
 The EXTRACT function was used get the unique year number and the SUM function was used to get yearly sales as shown in the image below
 
@@ -113,7 +117,9 @@ ORDER BY Order_Year;
 ![](YS2.JPG)
  _Yearly Sales_- Image by Author
 
-6. **Total Quantites Sold per each year**
+6. _**Total Quantites Sold per each year**_
+
+The EXTRACT function was used get the unique year number and the SUM and CAST functions were used to get yearly sales as shown in the image below;
 
 ```sql
 SELECT CAST(SUM(Quantity) AS FLOAT64) as Total_Quantities, EXTRACT(YEAR FROM Order_Date) AS Order_Year
@@ -123,11 +129,15 @@ ORDER BY Order_Year
 ```
 ![](YQty2.JPG)
 
-_Yearly Sales_- Image by Author
+_Yearly Quuantities Sold_- Image by Author
 
 
-5. **States with the highest and least sales**
+7. _**States with the highest and least sales**_
+
 a. TOP5
+ 
+The SUM was used to calculate the total sales. The ORDER BY descending order was used to get the top5 States in sales as shown in the image below; 
+
 ```sql
 SELECT round(sum(Sales),1) as sales, State
 FROM `coastal-stone-366510.sales.superstore` 
@@ -139,6 +149,9 @@ LIMIT 5
 _Top 5 States in Sales_ - Image by Author
 
 b. BOTTOM5
+
+The SUM was used to calculate the total sales. The ORDER BY ascending order was used to get the bottom5 States in sales as shown in the image below;
+
 ```sql
 SELECT round(sum(Sales),1) as sales, State
 FROM `coastal-stone-366510.sales.superstore` 
@@ -151,7 +164,7 @@ LIMIT 5
 _Least 5 States in Sales_ - Image by Author
 
 
-6. What are the highest sold products and the least sold  products in sales?
+8. _**What are the highest sold products and the least sold  products in sales?**_
 
 TOP5 Products in sales                 				           
 ```sql
@@ -176,7 +189,7 @@ LIMIT 5
 ![](PALOW.JPG)
 
 
-7. **Sales by Product categories and Segment*8
+9. _**Sales by Product categories and Segment**_
 
 ```sql
 SELECT Category, Segment, round(sum(Sales),0) as TotalSales
@@ -187,7 +200,7 @@ ORDER BY TotalSales desc
 ![](prod2.JPG)
 
    
-7. **Sales by Region**
+10. _**Sales by Region**_
 
 ```sql
 SELECT  round(sum(Sales),1) as sales, Region
@@ -198,7 +211,7 @@ ORDER BY sales desc
 ![](reg2.JPG)
 
 
-8. **Shipmode by Customer's preference**
+11. _**Shipmode by Customer's preference**_
 
 ```sql
 SELECT count(Customer_ID) as customer, Ship_Mode
@@ -207,6 +220,7 @@ SELECT count(Customer_ID) as customer, Ship_Mode
  ORDER BY customer desc
 ```
 ![](ship2.JPG)
+
 
 ## OBSERVATIONS
 - The total revenue generated was $2,297,200
@@ -218,5 +232,6 @@ SELECT count(Customer_ID) as customer, Ship_Mode
 - The State with the highest sales was California while North Dakota had the least sales
 - Their top5 products sold are Phones, Chairs, Storage, Tables and Binders while the bottom5 are Fasteners, Labels, Envelopes, Art and Supplies
 - The delivery was by Ship mode which was divided into four classes: First class, Standard class, Second class and Same day. Standard class was the most preferred by the customers, followed by Second class, followed by First class and lastly Same day.
+
 
 ## RECOMMENDATIONS
