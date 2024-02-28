@@ -234,7 +234,7 @@ SELECT count(Customer_ID) as customer, Ship_Mode
 ![](ship2.JPG)
 
 
-## OBSERVATIONS
+## INSIGHTS
 - The total revenue generated was $2,297,200
 - The quantities sold was 37873 units
 - The total number of order received was 9994
@@ -250,3 +250,9 @@ SELECT count(Customer_ID) as customer, Ship_Mode
 
 
 ## DASHBOARD
+
+A dashboard refers to a visual representation of data that provides a summary and analysis of key information. It consist of charts, graphs, tables and other visual elements that allow users to understand complex data sets. Power BI was used to design the dashboard.
+
+Dashboards allow companies to monitor key performance indicators(KPIs) and track progress towards goals. By providing a real-time or near real-time data, dashboards provide a snapshot of performance and enable teams to identify areas of success that needs attention.
+
+
