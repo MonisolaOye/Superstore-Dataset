@@ -226,7 +226,7 @@ SELECT count(Customer_ID) as customer, Ship_Mode
 
 ## INSIGHTS
 - The total revenue generated between 2014 and 2017 was $2,297,200.
-- The total quantities sold was 37,873 units.
+- The total quantities sold was 37873 units.
 - The total number of order received was 9994.
 - The products sold in the Superstore are divided into three categories: Office supplies, Technology and Furniture.  Office supplies generated the highest sales ($22,906), followed by Furniture ($8,208) while Technology ($6,939) generated the least sales.
 - Sales increased positively over the years from 2014 ($484,217) to 2017 ($733,215) and so was the total quantities sold.
