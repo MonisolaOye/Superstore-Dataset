@@ -2,7 +2,7 @@
 
 _Unlocking Superstore Insights: Exploring Data in Bigquery with SQL_
 
-In the world of business, data-driven decisions are essential to success(rephrase this). Sales figure provide important insights to the performance of a company's products and regions. And one of the powerful data analysis tools that can be used to get insights from datasets is **SQL**.
+In the world of business, making decisions based is crucial in achieveing success. Sales figure provide important insights to the performance of a company's products and regions. And one of the powerful data analysis tools that can be used to get insights from datasets is **SQL**.
 
 ![](stationerystore.jpeg)
                                         _stationery store_
@@ -235,21 +235,23 @@ SELECT count(Customer_ID) as customer, Ship_Mode
 
 
 ## INSIGHTS
-- The total revenue generated was $2,297,200
+- The total revenue generated between 2014 and 2017 was $2,297,200
 - The total quantities sold was 37873 units
 - The total number of order received was 9994
 - The products sold in the Superstore are divided into three categories: Office supplies, Technology and Furniture.  Office supplies ($22,906) had the highest sales, followed by Furniture ($8,208) while Technology ($6,939) had the least sales
-- Total sales($2.3M) increased over the years and so was the total quantities sold.
+- Total sales($2.3M) increased positively over the years from 2014 to 2017 and so was the total quantities sold.
 - The West region had the highest sales ($725458), followed by East ($678781) then Central ($501240) while the South region had the least sales ($391722).
 - The State with the highest sales was California ($457687) while North Dakota had the least sales ($920)
 - Their top5 products sold are Phones, Chairs, Storage, Tables and Binders while the bottom5 are Supplies, Art, Envelopes, Labels and Fasteners
-- Standard class was the most preferred by the customers, followed by Second class, followed by First class and lastly Same day for delivery mode.
+- Standard class was the most preferred by 5968 customers, followed by Second class preferred by 1945 customers, followed by First class preferred by 1538 customers and lastly Same day preferred by 543 customers for delivery mode.
 
 
 ## RECOMMENDATIONS
-- The Superstore should invest more in stocking Phones, Chairs, Storage, Tables and Binders to increase sales and be readily aailable at all times.
--  The South region has the lowest sales figure, marketing strategies and awareness campaign should be implemented in this region to boost sales
--  
+Based on the insightful analysis of the Superstore sales data, I would like to give the following recommendations: 
+
+1. The Superstore should invest more in stocking Phones, Chairs, Storage, Tables and Binders to increase sales and they should be made readily aailable at all times.
+2. The South region has the lowest sales figure, marketing strategies and awareness campaign should be implemented in this region to boost sales.
+3. Special attention must be paid to the swift and efficient delivery to the Standard class since it is most preffered by the customers and thereby drove in most sales.
 
 ## DASHBOARD
 
@@ -259,3 +261,6 @@ Dashboards allow companies to monitor key performance indicators(KPIs) and track
 
 
 ![](dashboard.JPG)
+
+## CONCLUSION 
+In conclusion, this comes to the end of my analysis of the Superstore sales data which demonstrate the power of data analysis in making data-driven business decisions. By transforming and analyzing the sales data, I have been able to provide insights and actionable recommendations which can guide the Superstore in enhancing their sales performance.
