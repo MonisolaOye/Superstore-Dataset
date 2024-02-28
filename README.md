@@ -2,7 +2,7 @@
 
 _Unlocking Superstore Insights: Exploring Data in Bigquery with SQL_
 
-In the world of business, making decisions based is crucial in achieveing success. Sales figure provide important insights to the performance of a company's products and regions. And one of the powerful data analysis tools that can be used to get insights from datasets is **SQL**.
+In the world of business, making decisions based on data is crucial in achieveing success. Sales figure provide important insights to the performance of a company's products and regions. And one of the powerful data analysis tools that can be used to get insights from datasets is **SQL**.
 
 ![](stationerystore.jpeg)
                                         _stationery store_
@@ -61,8 +61,6 @@ FROM `coastal-stone-366510.sales.superstore`
 ```
 
 ![](Total2.JPG)
-_Total Sales_- Image by Author
-
 
 
 2. _**Total number of order received**_
@@ -74,9 +72,7 @@ SELECT  count(Order_ID) AS Num_of_Order
 FROM `coastal-stone-366510.sales.superstore`
 ```
 ![](Order2.JPG)
- _Total Order_- Image by Author
-
-
+ 
 
 3. _**Total Quantities Sold**_
 
@@ -87,7 +83,6 @@ SELECT CAST(SUM(Quantity) AS FLOAT64) as Total_Quantities
 FROM `coastal-stone-366510.sales.superstore`
 ```
 ![](TQty.JPG)
-_Total Quantities Sold_- Image by Author
 
 
 4. _**Total quantities sold per each Product Category**_
@@ -101,7 +96,7 @@ GROUP BY Category
 ORDER BY Total_Quantities desc
 ```
 ![](CQty.JPG)
- _Total Order_- Image by Author
+ 
    
 5. _**Sales made per each year**_
 
@@ -115,7 +110,7 @@ ORDER BY Order_Year;
 ```
 
 ![](YS2.JPG)
- _Yearly Sales_- Image by Author
+ 
 
 6. _**Total Quantites Sold per each year**_
 
@@ -128,8 +123,6 @@ GROUP BY Order_Year
 ORDER BY Order_Year
 ```
 ![](YQty2.JPG)
-
-_Yearly Quuantities Sold_- Image by Author
 
 
 7. _**States with the highest and least sales**_
@@ -146,7 +139,7 @@ ORDER BY sales desc
 LIMIT 5
 ```
 ![](state1.JPG)
-_Top 5 States in Sales_ - Image by Author
+
 
 b. _BOTTOM5_
 
@@ -161,7 +154,6 @@ LIMIT 5
 ```
 ![](state2.JPG)
 
-_Least 5 States in Sales_ - Image by Author
 
 
 8. _**What are the highest sold products and the least sold  products in sales?**_
@@ -180,8 +172,6 @@ LIMIT 5
 
 ![](PATOP.JPG)
 
-
-_BOTTOM5 Products in sales_
 
 The SUM function was used to calcualte the total sales for each product sub-category and ordered in ascending order to get the bottom5 products in sales as shown in the image below;
 
