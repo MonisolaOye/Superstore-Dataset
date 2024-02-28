@@ -247,7 +247,9 @@ SELECT count(Customer_ID) as customer, Ship_Mode
 
 
 ## RECOMMENDATIONS
-
+- The Superstore should invest more in stocking Phones, Chairs, Storage, Tables and Binders to increase sales and be readily aailable at all times.
+-  The South region has the lowest sales figure, marketing strategies and awareness campaign should be implemented in this region to boost sales
+-  
 
 ## DASHBOARD
 
