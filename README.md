@@ -236,12 +236,12 @@ SELECT count(Customer_ID) as customer, Ship_Mode
 
 ## INSIGHTS
 - The total revenue generated was $2,297,200
-- The quantities sold was 37873 units
+- The total quantities sold was 37873 units
 - The total number of order received was 9994
-- The products sold in the Superstore are divided into three categories: Office supplies, Technology and Furniture.  Office supplies had the highest sales, followed by Furniture while Technology had the least sales
-- Total sales increased over the years and so was the total quantities sold.
-- The West region had the highest sales, followed by East, then Central while the South region had the least sales.
-- The State with the highest sales was California while North Dakota had the least sales
+- The products sold in the Superstore are divided into three categories: Office supplies, Technology and Furniture.  Office supplies ($22,906) had the highest sales, followed by Furniture ($8,208) while Technology ($6,939) had the least sales
+- Total sales($2.3M) increased over the years and so was the total quantities sold.
+- The West region had the highest sales ($725458), followed by East ($678781) then Central ($501240) while the South region had the least sales ($391722).
+- The State with the highest sales was California ($457687) while North Dakota had the least sales ($920)
 - Their top5 products sold are Phones, Chairs, Storage, Tables and Binders while the bottom5 are Supplies, Art, Envelopes, Labels and Fasteners
 - Standard class was the most preferred by the customers, followed by Second class, followed by First class and lastly Same day for delivery mode.
 
@@ -256,3 +256,4 @@ A dashboard refers to a visual representation of data that provides a summary an
 Dashboards allow companies to monitor key performance indicators(KPIs) and track progress towards goals. By providing a real-time or near real-time data, dashboards provide a snapshot of performance and enable teams to identify areas of success that needs attention.
 
 
+![](dashboard.JPG)
