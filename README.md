@@ -225,13 +225,13 @@ SELECT count(Customer_ID) as customer, Ship_Mode
 
 
 ## INSIGHTS
-- The total revenue generated between 2014 and 2017 was $2,297,200
-- The total quantities sold was 37873 units
-- The total number of order received was 9994
-- The products sold in the Superstore are divided into three categories: Office supplies, Technology and Furniture.  Office supplies ($22,906) had the highest sales, followed by Furniture ($8,208) while Technology ($6,939) had the least sales
-- Total sales($2.3M) increased positively over the years from 2014 to 2017 and so was the total quantities sold.
-- The West region had the highest sales ($725458), followed by East ($678781) then Central ($501240) while the South region had the least sales ($391722).
-- The State with the highest sales was California ($457687) while North Dakota had the least sales ($920)
+- The total revenue generated between 2014 and 2017 was $2,297,200.
+- The total quantities sold was 37,873 units.
+- The total number of order received was 9994.
+- The products sold in the Superstore are divided into three categories: Office supplies, Technology and Furniture.  Office supplies generated the highest sales ($22,906), followed by Furniture ($8,208) while Technology ($6,939) generated the least sales.
+- Sales increased positively over the years from 2014 ($484,217) to 2017 ($733,215) and so was the total quantities sold.
+- The West region had the highest sales ($725,458), followed by East ($678,781) then Central ($501,240) while the South region had the least sales ($391,722).
+- The State with the highest sales was California ($457,687) while North Dakota had the least sales ($920)
 - Their top5 products sold are Phones, Chairs, Storage, Tables and Binders while the bottom5 are Supplies, Art, Envelopes, Labels and Fasteners
 - Standard class was the most preferred by 5968 customers, followed by Second class preferred by 1945 customers, followed by First class preferred by 1538 customers and lastly Same day preferred by 543 customers for delivery mode.
 
@@ -239,9 +239,9 @@ SELECT count(Customer_ID) as customer, Ship_Mode
 ## RECOMMENDATIONS
 Based on the insightful analysis of the Superstore sales data, I would like to give the following recommendations: 
 
-1. The Superstore should invest more in stocking Phones, Chairs, Storage, Tables and Binders to increase sales and they should be made readily aailable at all times.
+1. The Superstore should invest more in stocking Phones, Chairs, Storage, Tables and Binders to increase sales and they should be made readily available at all times.
 2. The South region has the lowest sales figure, marketing strategies and awareness campaign should be implemented in this region to boost sales.
-3. Special attention must be paid to the swift and efficient delivery to the Standard class since it is most preffered by the customers and thereby drove in most sales.
+3. Special attention must be paid to the swift and efficient delivery of the Standard class since it is the most preffered Shipmode delivery by the customers and thereby drove in the most sales.
 
 ## DASHBOARD
 
