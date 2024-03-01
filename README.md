@@ -129,7 +129,7 @@ ORDER BY Order_Year
 
 a. _TOP5_
  
-The SUM function was used to calcualte the total sales for each product sub-category and ordered in ascending order to get the bottom5 products in sales as shown in the image below;
+The SUM function was used to calculate the total sales for each product sub-category and ordered in descending order to get the bottom5 products in sales as shown in the image below;
 
 ```sql
 SELECT round(sum(Sales),1) as sales, State
@@ -143,7 +143,7 @@ LIMIT 5
 
 b. _BOTTOM5_
 
-The SUM function was used to calcualte the total sales for each product sub-category and ordered in ascending order to get the bottom5 products in sales as shown in the image below;
+The SUM function was used to calculate the total sales for each product sub-category and ordered in ascending order to get the bottom5 products in sales as shown in the image below;
 
 ```sql
 SELECT round(sum(Sales),1) as sales, State
@@ -160,7 +160,7 @@ LIMIT 5
 
 _TOP5 Products in sales_  
 
-The SUM function was used to calcualte the total sales for each product sub-category and ordered in descending order to get the top5 products in sales as shown in the image below;
+The SUM function was used to calculate the total sales for each product sub-category and ordered in descending order to get the top5 products in sales as shown in the image below;
 
 ```sql
 SELECT round(sum(sales),1) as sales, Sub_Category 
@@ -187,7 +187,7 @@ LIMIT 5
 
 9. _**Sales by Product categories and Segment**_
 
-The SUM function was used to calcualte the total sales for each product segment and category as shown in the image below;
+The SUM function was used to calculate the total sales for each product segment and category as shown in the image below;
 
 ```sql
 SELECT Category, Segment, round(sum(Sales),0) as TotalSales
@@ -200,7 +200,7 @@ ORDER BY TotalSales desc
    
 10. _**Sales by Region**_
 
-The SUM function was used to calcualte the total sales for each region as shown in the image below;
+The SUM function was used to calculate the total sales for each region as shown in the image below;
 
 ```sql
 SELECT  round(sum(Sales),1) as sales, Region
